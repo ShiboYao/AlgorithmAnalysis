@@ -6,7 +6,7 @@ Program written in C.
 gcc compiler. 
 
 
-#1. Sorting Algorithm Comparison
+# 1. Sorting Algorithm Comparison
 Implement MergeSort, HeapSort and QuickSort, and analyze their time complexity and efficiency by looking at the operations made and time taken by each algorithm.
 
 ## File Description
@@ -48,7 +48,7 @@ gcc -o tabulate tabulate.c
 If found data.txt, that is the original random data; if found aadt.txt, that is the sorted data; if found tdaa.txt, that is the reversed data. 
 
 
-#2. Selection Algorithm 
+# 2. Selection Algorithm 
 Deterministic pivot based on median of median, quick select Kth smallest elements in an array. 
 
 Implemented by Shibo Yao, espoyao(at)gmail(dot)com
