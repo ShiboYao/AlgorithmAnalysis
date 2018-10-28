@@ -1,0 +1,58 @@
+0 99 100 5 
+Mow	0.0710		542
+Hon	0.0330		272
+Qon	0.0370		769
+Msn	0.0630		316
+Hsn	0.0310		270
+Qsn	0.0190		542
+Mrn	0.0700		356
+Hrn	0.0280		245
+Qrn	0.0190		542
+
+0 99 1024 3 
+Mow	1.0700		8942
+Hon	0.5240		4534
+Qon	0.4780		11408
+Msn	0.8660		5120
+Hsn	0.4580		4720
+Qsn	0.1730		8716
+Mrn	0.8760		5120
+Hrn	0.4680		4251
+Qrn	0.1850		8716
+
+0 99 32768 3 
+Mow	23.8660		450145
+Hon	13.0690		228129
+Qon	10.0180		615410
+Msn	16.8200		245760
+Hsn	8.5900		233816
+Qsn	3.3540		443101
+Mrn	17.1520		246035
+Hrn	9.0070		219963
+Qrn	3.5210		443100
+
+0 99 1048576 3 
+Mow	982.8170		19645969
+Hon	881.5510		9927219
+Qon	527.2510		27377089
+Msn	680.0690		10485760
+Hsn	380.9110		10053505
+Qsn	165.6840		20011657
+Mrn	693.4820		10720756
+Hrn	405.9370		9595945
+Qrn	171.2750		20011508
+
+*****************************
+The above is the tabulated program output. 
+(0 99 100 5) describes the settings for generating vectors (start end n l). 
+(Mow) describes the settings for sorting (sorging algorithm, dataset, write to file or not). There are different settings, {M: merge, H: heap, Q: quick}, {o: origin, s: sorted, r: reversed}, {w: write, n: not write}. 
+The first float number is the running time for a specific sorting measured in ms, the second int number is the comparisons each sorting made. 
+
+According to the run time, the estimated time complexity for all three algorithms is o(nlog(n)). 
+
+The constant factors before nlog(n) are a little smaller than 1 for merge sort, about 0.5 for heap sort and a little larger than 1 for quick sort respectively. 
+In other words, based on the random dataset, merge sort performs a little better than nlog(n), quick sort performs a little worse than nlog(n) and heap sort performs best, at around 0.5nlog(n). 
+
+The average-case complexity of the three sorting algorithms are O(nlog(n)), which is consistent with the experiment result. 
+However, quick sort has a less time consuming although it requires more comparisons. 
+

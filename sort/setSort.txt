@@ -1,0 +1,9 @@
+M,o,w
+H,o,n
+Q,o,n
+M,s,n
+H,s,n
+Q,s,n
+M,r,n
+H,r,n
+Q,r,n
