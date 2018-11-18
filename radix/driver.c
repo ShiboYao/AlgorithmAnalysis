@@ -2,7 +2,7 @@
 #include "sort.h"
 
 
-unsigned int l = 10; //have to be consistent with the genVec
+unsigned int l = 25; //have to be consistent with the genVec
 
 
 int main(int argc, char** argv){
