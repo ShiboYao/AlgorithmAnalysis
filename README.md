@@ -51,4 +51,17 @@ If found data.txt, that is the original random data; if found aadt.txt, that is 
 # 2. Selection Algorithm 
 Deterministic pivot based on median of median, quick select Kth smallest elements in an array. 
 
+
+# 3. Radix Sort
+To generate vectors:
+
+./genVec START END VECTOR\_NUMBER VECTOR\_LENGTH
+
+Note that in here it generates vectors of various lengths. Then in Radix Sorting, the program will append 0 if the vector is shorter than VECTOR\_LENGTH and will neglect trailing numbers. 
+
+To do Radix Sorting:
+
+./driver
+
+
 Implemented by Shibo Yao, espoyao(at)gmail(dot)com
